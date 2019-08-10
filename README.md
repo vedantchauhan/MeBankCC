@@ -1,6 +1,6 @@
 # MeBankCC
 
-This README file explains how to use HothFamilyTree application. This file also specifies minimum system requirements needed to run the application.
+This README file explains how to use MeBank coding challenge application. This file also specifies minimum system requirements needed to run the application.
 
 <hr>
 
