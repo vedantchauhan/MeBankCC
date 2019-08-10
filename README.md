@@ -25,7 +25,7 @@ The project is simple contains two packages main and a TransactionRecord bean.
 In relation to the packages there is an input file called transactions.csv which contains transaction records.
 </li>
 <li> The program has a straight forward approach of taking the CSV files and using CsvToBean to read the file line by line and convert it into bean.</li>
-<li> Once the file is converted to bean, the checks are perfromed based on the given input. Firstly, based on 'from' and 'to' transactions are added to a list and any reversal transaction is omitted. Then, accountid is checked in the list and based on send or receive of the amount, balance is calculated. </li>
+<li> Once the file is converted to bean, the checks are perfromed based on the given input. Firstly, based on 'from' and 'to' transactions are added to a list and any reversal transaction is omitted. Then, 'accountID' is checked in the list and based on send or receive of the amount, balance is calculated. </li>
 </ul>
 
 <hr>
@@ -71,37 +71,37 @@ Menu:
  
 Provide your response. Application will continue to prompt for inputs and will show results. Type '2' to exit. With '1' response, below test cases area attached: <br>
 <i> 
-1
-Enter following inputs:
-accountId:
-ACC334455
-from (in format- DD/MM/YYYY HH:mm:ss):
-20/10/2018 12:00:00
-to (in format- DD/MM/YYYY HH:mm:ss):
-20/10/2018 19:00:00
-Relative balance for the period is: $-25.0
-Number of transactions included is:1
-1
-Enter following inputs:
-accountId:
-ACC778899
-from (in format- DD/MM/YYYY HH:mm:ss):
-20/10/2018 12:00:00
-to (in format- DD/MM/YYYY HH:mm:ss):
-20/10/2018 19:00:00
-Relative balance for the period is: $30.0
-Number of transactions included is:2
-1
-Enter following inputs:
-accountId:
-ACC998877
-from (in format- DD/MM/YYYY HH:mm:ss):
-20/10/2018 12:00:00
-to (in format- DD/MM/YYYY HH:mm:ss):
-20/10/2018 19:00:00
-Relative balance for the period is: $-5.0
-Number of transactions included is:1
-2
+1 <br>
+Enter following inputs:<br>
+accountId:<br>
+ACC334455<br>
+from (in format- DD/MM/YYYY HH:mm:ss):<br>
+20/10/2018 12:00:00<br>
+to (in format- DD/MM/YYYY HH:mm:ss):<br>
+20/10/2018 19:00:00<br>
+Relative balance for the period is: $-25.0<br>
+Number of transactions included is:1<br>
+1<br>
+Enter following inputs:<br>
+accountId:<br>
+ACC778899<br>
+from (in format- DD/MM/YYYY HH:mm:ss):<br>
+20/10/2018 12:00:00<br>
+to (in format- DD/MM/YYYY HH:mm:ss):<br>
+20/10/2018 19:00:00<br>
+Relative balance for the period is: $30.0<br>
+Number of transactions included is:2<br>
+1<br>
+Enter following inputs:<br>
+accountId:<br>
+ACC998877<br>
+from (in format- DD/MM/YYYY HH:mm:ss):<br>
+20/10/2018 12:00:00<br>
+to (in format- DD/MM/YYYY HH:mm:ss):<br>
+20/10/2018 19:00:00<br>
+Relative balance for the period is: $-5.0<br>
+Number of transactions included is:1<br>
+2<br>
 </i>
 <br>
 Remember the values are case-sensitive, if case is not followed, the output will not be the one desired.
