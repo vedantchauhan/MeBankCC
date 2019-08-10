@@ -61,8 +61,6 @@ public class Transactions {
         }catch(Exception e){
             e.printStackTrace();
         }
-
-
     }
 
     /**
