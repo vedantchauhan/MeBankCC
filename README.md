@@ -69,7 +69,14 @@ Menu:
  1. For input check
  2. exit </i>
  
-Provide your response. Application will continue to prompt for inputs and will show results. Type '2' to exit. With '1' response, below test cases are attached: <br>
+Provide your response. Application will continue to prompt for inputs and will show results. Type '2' to exit. <br>
+With '1' as a response, below test cases are attached from transactions.csv file based on example data as shown below: <br>
+transactionId, fromAccountId, toAccountId, createdAt, amount, transactionType, relatedTransaction<br>
+TX10001, ACC334455, ACC778899, 20/10/2018 12:47:55, 25.00, PAYMENT<br>
+TX10002, ACC334455, ACC998877, 20/10/2018 17:33:43, 10.50, PAYMENT<br>
+TX10003, ACC998877, ACC778899, 20/10/2018 18:00:00, 5.00, PAYMENT<br>
+TX10004, ACC334455, ACC998877, 20/10/2018 19:45:00, 10.50, REVERSAL, TX10002<br>
+TX10005, ACC334455, ACC778899, 21/10/2018 09:30:00, 7.25, PAYMENT<br>
 <i> 
 1 <br>
 Enter following inputs:<br>
