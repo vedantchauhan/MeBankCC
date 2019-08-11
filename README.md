@@ -69,7 +69,7 @@ Menu:
  1. For input check
  2. exit </i>
  
-Provide your response. Application will continue to prompt for inputs and will show results. Type '2' to exit. With '1' response, below test cases area attached: <br>
+Provide your response. Application will continue to prompt for inputs and will show results. Type '2' to exit. With '1' response, below test cases are attached: <br>
 <i> 
 1 <br>
 Enter following inputs:<br>
@@ -111,7 +111,7 @@ Remember the values are case-sensitive, if case is not followed, the output will
 
 Assumptions:
     <ul>
-        <li>Input file and records are all in a valid format including a header.</li>
+        <li>Input file is CSV and records are all in a valid format including a header.</li>
         <li>Transaction are recorded in order.</li>
         <li>Date format should be DD/MM/YYYY HH:mm:ss. </li>
     </ul>
